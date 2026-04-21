@@ -91,7 +91,7 @@
 
     .hero-grid {
       display: grid;
-      grid-template-columns: minmax(0, 1.45fr) minmax(280px, 0.75fr);
+      grid-template-columns: minmax(0, 1.7fr) minmax(260px, 0.55fr);
       gap: 36px;
       align-items: end;
     }
@@ -124,12 +124,18 @@
     }
 
     h1 {
-      font-size: clamp(3.4rem, 7.4vw, 7.4rem);
+      font-size: clamp(2.9rem, 5.8vw, 6.2rem);
       line-height: 0.92;
       letter-spacing: -0.06em;
-      max-width: 14.5em;
+      max-width: none;
       text-wrap: balance;
       word-break: keep-all;
+    }
+
+    @media (min-width: 1180px) {
+      h1 {
+        white-space: nowrap;
+      }
     }
 
     .hero-copy p {
