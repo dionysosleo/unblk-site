@@ -247,6 +247,10 @@
       grid-template-columns: 1fr;
     }
 
+    .section-head.single h2 {
+      max-width: none;
+    }
+
     .section-head h2 {
       font-size: clamp(2.4rem, 4.2vw, 4.6rem);
       line-height: 0.98;
@@ -254,6 +258,12 @@
       max-width: 8em;
       text-wrap: balance;
       word-break: keep-all;
+    }
+
+    @media (min-width: 1180px) {
+      .section-head.single h2 {
+        white-space: nowrap;
+      }
     }
 
     .section-head p {
