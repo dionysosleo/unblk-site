@@ -90,10 +90,7 @@
     }
 
     .hero-grid {
-      display: grid;
-      grid-template-columns: minmax(0, 1.7fr) minmax(260px, 0.55fr);
-      gap: 44px;
-      align-items: start;
+      display: block;
     }
 
     .hero-copy {
@@ -151,28 +148,6 @@
       line-height: 1.82;
       color: #d6d6d4;
       font-weight: 500;
-    }
-
-    .hero-note {
-      margin-top: 150px;
-      padding: 12px 0 0 34px;
-      border-left: 1px solid var(--line);
-    }
-
-    .hero-note strong {
-      display: block;
-      margin-bottom: 14px;
-      font-size: 0.92rem;
-      font-weight: 700;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: #d1d1cf;
-    }
-
-    .hero-note p {
-      font-size: 1.18rem;
-      line-height: 1.85;
-      color: #ededeb;
     }
 
     .cta-row {
@@ -591,7 +566,6 @@
         max-width: 100%;
       }
 
-      .hero-grid,
       .section-head,
       .highlight,
       .project-card,
@@ -607,11 +581,6 @@
       .principle-item,
       .process-item {
         gap: 10px;
-      }
-
-      .hero-note {
-        margin-top: 24px;
-        padding: 24px 0 0 24px;
       }
 
       .topbar-inner {
@@ -717,15 +686,6 @@
             <a class="btn btn-primary" href="#contact">프로젝트 문의</a>
             <a class="btn btn-secondary" href="#services">서비스 보기</a>
           </div>
-        </div>
-
-        <div class="hero-note">
-          <strong>What We Do</strong>
-          <p>
-            광고 운영만 따로 보지 않습니다.<br>
-            마케팅 전략만 말하고 끝내지 않습니다.<br>
-            영업과 매출로 이어지는 구조까지 함께 봅니다.
-          </p>
         </div>
       </div>
     </section>
