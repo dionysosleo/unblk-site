@@ -19,6 +19,7 @@
       --accent-soft: rgba(255, 255, 255, 0.06);
       --max: 1240px;
       --section-gap: 140px;
+      --display-size: clamp(2.6rem, 4.8vw, 5rem);
     }
 
     * {
@@ -127,8 +128,8 @@
     }
 
     h1 {
-      font-size: clamp(2.9rem, 5.8vw, 6.2rem);
-      line-height: 0.92;
+      font-size: var(--display-size);
+      line-height: 0.96;
       letter-spacing: -0.06em;
       max-width: none;
       text-wrap: balance;
@@ -227,22 +228,22 @@
     }
 
     .section-head.single.tight h2 {
-      font-size: clamp(2.1rem, 3.8vw, 3.9rem);
+      font-size: var(--display-size);
       letter-spacing: -0.06em;
     }
 
     .section-head.single.tight.process h2 {
-      font-size: clamp(2rem, 3.6vw, 3.55rem);
+      font-size: var(--display-size);
     }
 
     .section-head.single.tight.projects h2 {
-      font-size: clamp(1.95rem, 3.45vw, 3.4rem);
+      font-size: var(--display-size);
     }
 
     .section-head h2 {
-      font-size: clamp(2.4rem, 4.2vw, 4.6rem);
-      line-height: 0.98;
-      letter-spacing: -0.05em;
+      font-size: var(--display-size);
+      line-height: 0.96;
+      letter-spacing: -0.06em;
       max-width: 8em;
       text-wrap: balance;
       word-break: keep-all;
@@ -609,7 +610,7 @@
       }
 
       h1 {
-        font-size: 2.95rem;
+        font-size: 2.4rem;
         max-width: 100%;
         letter-spacing: -0.05em;
       }
@@ -624,7 +625,7 @@
 
       .section-head h2,
       .contact-card h2 {
-        font-size: 2.2rem;
+        font-size: 2.4rem;
         max-width: 100%;
       }
 
